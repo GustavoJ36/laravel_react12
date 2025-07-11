@@ -10,3 +10,5 @@ services:
             - 5175:5175
         volumes:
             - .:/var/www/html
+volumes:
+    laravelreact: {}
